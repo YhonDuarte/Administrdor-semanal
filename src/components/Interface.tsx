@@ -53,8 +53,6 @@ const Interface = () => {
             setbienvenido(`¡Bienvenido, ${
                 datos.nombre
             }!`)
-
-
         }
         setTimeout(() => {
             setAlert('')
@@ -81,7 +79,7 @@ const Interface = () => {
                     <Label>
                         Presupuesto:
                     </Label>
-                    <Inputs type='text' placeholder="Ingresa el monto" name='monto'
+                    <Inputs type='number' placeholder="Ingresa el monto" name='monto'
                         onChange={agg}
                         autoComplete='off'/>
                     <Btn onClick={validacion}>Ingresar</Btn>
