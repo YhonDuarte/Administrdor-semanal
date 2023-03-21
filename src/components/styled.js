@@ -17,6 +17,12 @@ export const EstiloGLobal = createGlobalStyle`
         background: url(https://1.bp.blogspot.com/-zEjZtydyYwg/YaZcc3S16tI/AAAAAAAAGl0/VtE-5FwCYrkTdp5oHJ8sVsYekZvTVFtZQCLcBGAsYHQ/s16000/yoututosjeffreyq56iu7e56uje.png) ;
         background-size: cover;
     }
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+    input[type=number] { -moz-appearance:textfield; }
 }
 
 `
