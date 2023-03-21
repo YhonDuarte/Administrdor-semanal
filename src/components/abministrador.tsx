@@ -113,7 +113,7 @@ const Abministrador = ({datos, setModal, setbienvenido} : info) => {
 
                         <Label>Gasto</Label><Inputs type='text' autoComplete="off" name='gasto'
                             onChange={nuevoGasto}/>
-                        <Label>Precio</Label><Inputs type='text' autoComplete="off" name='precio'
+                        <Label>Precio</Label><Inputs type='number' autoComplete="off" name='precio'
                             onChange={nuevoGasto}/>
 
                         <Btn>Agregar</Btn>
